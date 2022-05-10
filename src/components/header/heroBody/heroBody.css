@@ -1,0 +1,60 @@
+.hero-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.hero-left-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hero-left-part .hero-img {
+  width: 50%;
+}
+.hero-img img {
+  width: 100%;
+}
+
+.hero-img-about {
+  width: 50%;
+}
+
+.hero-price-bottom {
+  padding: 8px;
+  border-top: 3px solid lightgrey;
+}
+
+.price-btns-con-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-pice-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btns-add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.hero-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-cards-container img {
+  width: 40%;
+}

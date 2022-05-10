@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  background-color: #339ff5;
+  color: white;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.nav-left p {
+  margin: 0;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-right p {
+  margin: 0;
+}
+
+.select {
+  background-color: #339ff5;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.select option {
+  padding: 10px 80px;
+  background-color: red;
+  border: none;
+}
+
+.select option:hover {
+  background-color: grey;
+}
+
+.Epallet {
+  margin: 0;
+}
+.navbar-search {
+  padding: 8px 40px;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 40px;
+}
+.navigation ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+.navigation ul li {
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 40px;
+  font-size: 20px;
+}
+.nav-links i {
+  font-size: 30px;
+}
+.nav-back {
+  padding: 4px 40px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
